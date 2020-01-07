@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/op-collector-spring-boot.iml" filepath="$PROJECT_DIR$/op-collector-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/op-collector-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/op-collector-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/op-collector-spring-boot-starter/op-collector-spring-boot-starter.iml" filepath="$PROJECT_DIR$/op-collector-spring-boot-starter/op-collector-spring-boot-starter.iml" />
+    </modules>
+  </component>
+</project>
