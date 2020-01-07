@@ -9,7 +9,6 @@
 * 采集系统信息，包括应用名称、应用端口、应用IP
 * 采集系统调用关系，包括FeignClient的调用，RestTemplate的调用，据此可以画出完整的调用链路。
 * 异步发送的集成。//todo
-* 通过增加
 
 ## 特点
 * FeignClient的采集无侵入，对于RestTemplate，需要添加一个Interceptor，即可。
