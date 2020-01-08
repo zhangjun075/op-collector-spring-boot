@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: opCollector
-server:
-  port: 8888
