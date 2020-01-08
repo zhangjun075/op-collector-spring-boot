@@ -4,7 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="166bcdf9-48b5-4b63-bb9c-943fe7aea0f4" name="Default Changelist" comment="" />
+    <list default="true" id="166bcdf9-48b5-4b63-bb9c-943fe7aea0f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/assembly/starter-poms-assembly.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/target/" />
     <ignored path="$PROJECT_DIR$/op-collector-spring-boot-starter/target/" />
@@ -29,7 +31,7 @@
           <entry key="gitignore" value="1" />
           <entry key="java" value="26" />
           <entry key="md" value="2" />
-          <entry key="xml" value="6" />
+          <entry key="xml" value="7" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -39,7 +41,7 @@
           <entry key="Git file" value="1" />
           <entry key="JAVA" value="26" />
           <entry key="Markdown" value="2" />
-          <entry key="XML" value="6" />
+          <entry key="XML" value="7" />
           <entry key="YAML" value="1" />
           <entry key="spring.factories" value="1" />
         </counts>
@@ -51,7 +53,7 @@
           <entry key="gitignore" value="3" />
           <entry key="java" value="2143" />
           <entry key="md" value="2550" />
-          <entry key="xml" value="78" />
+          <entry key="xml" value="99" />
           <entry key="yml" value="32" />
         </counts>
       </usages-collector>
@@ -61,7 +63,7 @@
           <entry key="JAVA" value="2143" />
           <entry key="Markdown" value="2550" />
           <entry key="PLAIN_TEXT" value="48" />
-          <entry key="XML" value="78" />
+          <entry key="XML" value="99" />
           <entry key="YAML" value="32" />
           <entry key="spring.factories" value="28" />
         </counts>
@@ -74,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#253#254#0" expanded="true" />
@@ -88,19 +90,10 @@
         <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/config/ApplicationAutoConfigure.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="402">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.0.RELEASE/spring-boot-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -122,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/config/CallServiceAutoConfigure.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="676">
-              <caret line="46" column="1" lean-forward="true" selection-start-line="17" selection-end-line="46" selection-end-column="1" />
+              <caret line="46" column="1" selection-start-line="17" selection-end-line="46" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#816#817#0" expanded="true" />
@@ -138,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/meta/ServiceMetaInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -213,7 +206,7 @@
         <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/processor/FeignClientProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="655">
-              <caret line="58" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+              <caret line="58" column="5" selection-start-line="30" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -237,7 +230,7 @@
         <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/interceptor/BraveHttpInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="19" column="117" lean-forward="true" selection-start-line="19" selection-start-column="117" selection-end-line="19" selection-end-column="117" />
+              <caret line="19" column="117" selection-start-line="19" selection-start-column="117" selection-end-line="19" selection-end-column="117" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -258,7 +251,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="273">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -272,13 +265,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-starter/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="252">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/assembly/starter-poms-assembly.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -322,7 +320,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/op-collector-spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/zhangmen/machine/MachineAutoConfigure.java" />
         <option value="$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/pom.xml" />
@@ -348,6 +345,7 @@
         <option value="$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/config/CallServiceAutoConfigure.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/op-collector-spring-boot-starter/pom.xml" />
       </list>
     </option>
   </component>
@@ -366,15 +364,33 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="op-collector-spring-boot-autoconfigure" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="op-collector-spring-boot-autoconfigure" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="op-collector-spring-boot-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="op-collector-spring-boot-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-268" />
-    <option name="y" value="-1057" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="y" value="23" />
+    <option name="width" value="1403" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -600,6 +616,24 @@
               <item name="op-collector-spring-boot" type="462c0819:PsiDirectoryNode" />
               <item name="op-collector-spring-boot-starter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="op-collector-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="op-collector-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="op-collector-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="op-collector-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="op-collector-spring-boot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="op-collector-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assembly" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -775,32 +809,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578313948263</updated>
-      <workItem from="1578313950617" duration="28523000" />
+      <workItem from="1578313950617" duration="29906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28523000" />
+    <option name="totallyTimeSpent" value="29906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-268" y="-1057" width="1920" height="1057" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1403" height="877" extended-state="6" />
     <layout>
       <window_info id="JRebel" side_tool="true" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20607029" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28434974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="REST Client" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.39490446" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.3299363" />
       <window_info anchor="bottom" id="Messages" weight="0.3299363" />
-      <window_info anchor="bottom" id="Statistic" visible="true" weight="0.26839378" />
+      <window_info anchor="bottom" id="Statistic" weight="0.26839378" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
@@ -814,7 +847,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven Projects" weight="0.3299045" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.3299045" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="SciView" />
@@ -986,7 +1019,7 @@
     <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#253#254#0" expanded="true" />
@@ -1061,7 +1094,7 @@
     <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/meta/ServiceMetaInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -1085,7 +1118,7 @@
     <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/processor/FeignClientProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="655">
-          <caret line="58" column="5" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
+          <caret line="58" column="5" selection-start-line="30" selection-start-column="4" selection-end-line="58" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1095,7 +1128,7 @@
     <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/config/ApplicationAutoConfigure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1105,7 +1138,7 @@
     <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/config/CallServiceAutoConfigure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="17" selection-end-line="46" selection-end-column="1" />
+          <caret line="46" column="1" selection-start-line="17" selection-end-line="46" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#816#817#0" expanded="true" />
@@ -1142,7 +1175,7 @@
     <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-autoconfigure/src/main/java/com/brave/interceptor/BraveHttpInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="19" column="117" lean-forward="true" selection-start-line="19" selection-start-column="117" selection-end-line="19" selection-end-column="117" />
+          <caret line="19" column="117" selection-start-line="19" selection-start-column="117" selection-end-line="19" selection-end-column="117" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1152,7 +1185,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1165,10 +1198,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/op-collector-spring-boot-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="252">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/assembly/starter-poms-assembly.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
