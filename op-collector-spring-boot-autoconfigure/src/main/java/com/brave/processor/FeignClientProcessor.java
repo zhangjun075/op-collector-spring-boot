@@ -39,9 +39,9 @@ public class FeignClientProcessor implements BeanFactoryAware {
 		Arrays.stream(beanDefinitionNames).forEach(
 				definitionName -> {
 					BeanDefinition beanDefinition = ((DefaultListableBeanFactory) beanFactory).getBeanDefinition(definitionName);
-					String feignClientProxyName = beanDefinition.getBeanClassName();
-					log.info("test feignClientProxyName is :{}",feignClientProxyName);
-					if(!Objects.isNull(feignClientProxyName) && CollectorInstant.FEIGN_CLIENT_FACTORY_BEAN.equals(feignClientProxyName)) {
+					String beanClassName = beanDefinition.getBeanClassName();
+					log.debug("beanClassName is :{}",beanClassName);
+					if(!Objects.isNull(beanClassName) && CollectorInstant.FEIGN_CLIENT_FACTORY_BEAN.equals(beanClassName)) {
 						MutablePropertyValues propValues = beanDefinition.getPropertyValues();
 						if(null != propValues) {
 							List<PropertyValue> pvs = propValues.getPropertyValueList();
@@ -61,6 +61,8 @@ public class FeignClientProcessor implements BeanFactoryAware {
 								log.info("feignClient property is {}",metaInfo);
 							}
 						}
+					}else if (!Objects.isNull(beanClassName) && CollectorInstant.FEIGN_CLIENT_SPECIFICATION.equals(beanClassName)) {
+						log.info("this bean is specification {}",beanDefinition);
 					}
 				}
 		);
