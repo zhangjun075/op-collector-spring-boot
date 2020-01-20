@@ -11,4 +11,5 @@ import lombok.Data;
 public class ServiceMetaInfo {
 	String serviceName;
 	String callUrl;
+	boolean flag = false;
 }

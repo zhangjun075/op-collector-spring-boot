@@ -45,18 +45,21 @@ public class FeignClientProcessor implements BeanFactoryAware {
 						MutablePropertyValues propValues = beanDefinition.getPropertyValues();
 						if(null != propValues) {
 							List<PropertyValue> pvs = propValues.getPropertyValueList();
+							ServiceMetaInfo metaInfo = new ServiceMetaInfo();
 							pvs.forEach(propertyValue -> {
-								ServiceMetaInfo metaInfo = new ServiceMetaInfo();
 								if(propertyValue.getName().equals(CollectorInstant.FEIGN_CLIENT_SERVICE_URL)) {
+									metaInfo.setFlag(true);
 									metaInfo.setCallUrl(propertyValue.getValue().toString());
 								}
 								if(propertyValue.getName().equals(CollectorInstant.FEIGN_CLIENT_SERVICE_NAME)) {
+									metaInfo.setFlag(true);
 									metaInfo.setServiceName(propertyValue.getValue().toString());
 								}
-								metadatas.add(metaInfo);
-								log.info("feignClient property is :{}={}",propertyValue,propertyValue.getValue());
 							});
-
+							if (metaInfo.isFlag()) {
+								metadatas.add(metaInfo);
+								log.info("feignClient property is {}",metaInfo);
+							}
 						}
 					}
 				}
