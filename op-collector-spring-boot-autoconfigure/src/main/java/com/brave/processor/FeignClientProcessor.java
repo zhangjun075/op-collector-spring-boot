@@ -1,6 +1,7 @@
 package com.brave.processor;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.Objects;
 
@@ -27,6 +28,10 @@ import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 public class FeignClientProcessor implements BeanFactoryAware {
 
 	private List<ServiceMetaInfo> metadatas;
+
+	public FeignClientProcessor() {
+		metadatas = Collections.emptyList();
+	}
 
 	@Override
 	public void setBeanFactory(BeanFactory beanFactory) throws BeansException {

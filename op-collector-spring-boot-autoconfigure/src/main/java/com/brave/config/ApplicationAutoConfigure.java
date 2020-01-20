@@ -30,6 +30,6 @@ public class ApplicationAutoConfigure {
 		String ip = IpTool.getLocalIP();
 		appMetaInfo.setIp(ip);
 		log.info("App info is {}",appMetaInfo);
-		return new AppMetaInfo();
+		return appMetaInfo;
 	}
 }
