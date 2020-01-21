@@ -1,3 +1,5 @@
 # Auto Configure
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.brave.config.ApplicationAutoConfigure
+  com.brave.config.ApplicationAutoConfigure,\
+  com.brave.config.CallServiceAutoConfigure,\
+  com.brave.config.MessageSenderConfigure
